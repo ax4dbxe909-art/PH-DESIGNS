@@ -1,1 +1,394 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PH DESIGNS | Demonstrações</title><style>*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#09060d;color:#fff}header{padding:38px 20px;text-align:center;background:linear-gradient(135deg,#12051d,#2b0845);border-bottom:1px solid #6d22a8}.logo{font-size:42px;font-weight:900;color:#b65cff;text-shadow:0 0 20px #7c20b8}.sub{color:#ddd;margin-top:8px}main{max-width:1050px;margin:auto;padding:28px 18px}.title{text-align:center;font-size:28px}.intro{text-align:center;color:#bbb;margin-bottom:28px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}.card{background:#151019;border:1px solid #43205b;border-radius:18px;padding:14px}.preview{height:190px;border-radius:13px;display:flex;align-items:center;justify-content:center;text-align:center;font-weight:900;font-size:25px;padding:15px}.barb{background:linear-gradient(135deg,#070707,#5d17a0)}.lan{background:linear-gradient(135deg,#ff7b00,#d71920)}.loj{background:linear-gradient(135deg,#111,#2878ff)}.insta{background:linear-gradient(135deg,#7b2cff,#f00078,#ff9a00)}.promo{background:linear-gradient(135deg,#111,#a87a20)}h3{margin:14px 0 6px}.card p{color:#aaa;font-size:14px}.btn{display:block;text-align:center;text-decoration:none;background:#8d2bd1;color:#fff;padding:12px;border-radius:10px;font-weight:700;margin-top:12px}footer{text-align:center;color:#888;padding:30px 15px}</style></head><body><header><div class="logo">PH DESIGNS</div><div class="sub">Designer Gráfico • Artes para negócios</div></header><main><h1 class="title">Escolha uma demonstração</h1><p class="intro">Veja alguns estilos de artes que a PH DESIGNS pode criar para o seu negócio.</p><div class="grid"><section class="card"><div class="preview barb">✂️<br>BARBEARIA<br><small>VISUAL DE RESPEITO</small></div><h3>Barbearia</h3><p>Promoções, cortes, barba e divulgação profissional.</p><a class="btn" href="#">Quero essa</a></section><section class="card"><div class="preview lan">🍔<br>LANCHONETE<br><small>SEU SABOR EM DESTAQUE</small></div><h3>Lanchonete</h3><p>Artes para combos, cardápio, ofertas e delivery.</p><a class="btn" href="#">Quero essa</a></section><section class="card"><div class="preview loj">🛍️<br>LOJA<br><small>OFERTAS QUE VENDEM</small></div><h3>Loja</h3><p>Posts para produtos, novidades, preços e promoções.</p><a class="btn" href="#">Quero essa</a></section><section class="card"><div class="preview insta">📱<br>INSTAGRAM<br><small>PERFIL PROFISSIONAL</small></div><h3>Instagram</h3><p>Identidade visual e conteúdos para destacar seu perfil.</p><a class="btn" href="#">Quero essa</a></section><section class="card"><div class="preview promo">🔥<br>PROMOÇÃO<br><small>PREÇO ESPECIAL</small></div><h3>Promoção</h3><p>Artes chamativas para ofertas e campanhas.</p><a class="btn" href="#">Quero essa</a></section></div></main><footer>PH DESIGNS 💜 • Demonstrações</footer></body></html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PH DESIGNS | Demonstrações</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#08050d;
+    color:white;
+    min-height:100vh;
+}
+
+header{
+    background:linear-gradient(135deg,#16002d,#33005c,#16002d);
+    padding:45px 20px;
+    text-align:center;
+    border-bottom:1px solid #8b2be2;
+}
+
+.logo{
+    font-size:42px;
+    font-weight:900;
+    color:#b45cff;
+    text-shadow:0 0 20px #8b2be2;
+    letter-spacing:1px;
+}
+
+.subtitulo{
+    margin-top:10px;
+    color:#ddd;
+    font-size:17px;
+}
+
+.container{
+    width:92%;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+.titulo{
+    text-align:center;
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.descricao{
+    text-align:center;
+    color:#aaa;
+    margin-bottom:35px;
+    font-size:16px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.card{
+    background:#151019;
+    border:1px solid #542080;
+    border-radius:18px;
+    padding:14px;
+    transition:.3s;
+    box-shadow:0 0 15px rgba(130,30,220,.15);
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    border-color:#b45cff;
+    box-shadow:0 0 25px rgba(180,92,255,.35);
+}
+
+.imagem{
+    width:100%;
+    height:260px;
+    border-radius:13px;
+    overflow:hidden;
+    background:linear-gradient(135deg,#210044,#8b2be2);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    font-size:25px;
+    font-weight:900;
+}
+
+.imagem img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+.card h2{
+    font-size:20px;
+    margin-top:16px;
+    margin-bottom:8px;
+}
+
+.card p{
+    color:#aaa;
+    line-height:1.5;
+    font-size:14px;
+    min-height:65px;
+}
+
+.botao{
+    display:block;
+    width:100%;
+    padding:13px;
+    margin-top:15px;
+    border-radius:10px;
+    background:linear-gradient(135deg,#7b1fd1,#b45cff);
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    font-weight:bold;
+    border:none;
+    cursor:pointer;
+    transition:.2s;
+}
+
+.botao:hover{
+    transform:scale(1.02);
+    filter:brightness(1.15);
+}
+
+.contato{
+    margin-top:45px;
+    padding:35px 20px;
+    text-align:center;
+    background:linear-gradient(135deg,#170025,#290045);
+    border:1px solid #542080;
+    border-radius:20px;
+}
+
+.contato h2{
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.contato p{
+    color:#bbb;
+    margin-bottom:20px;
+}
+
+.instagram{
+    display:inline-block;
+    padding:15px 25px;
+    border-radius:12px;
+    background:linear-gradient(135deg,#7b1fd1,#e1306c,#ff9a00);
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    color:#777;
+    padding:30px 15px;
+    font-size:14px;
+}
+
+@media(max-width:900px){
+
+    .cards{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+@media(max-width:600px){
+
+    .logo{
+        font-size:34px;
+    }
+
+    .titulo{
+        font-size:25px;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+    .imagem{
+        height:300px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">PH DESIGNS</div>
+
+    <div class="subtitulo">
+        Designer Gráfico • Artes para negócios
+    </div>
+
+</header>
+
+
+<main class="container">
+
+    <h1 class="titulo">
+        Escolha uma demonstração
+    </h1>
+
+    <p class="descricao">
+        Veja alguns estilos de artes que a PH DESIGNS pode criar para o seu negócio.
+    </p>
+
+
+    <section class="cards">
+
+
+        <!-- BARBEARIA -->
+
+        <div class="card">
+
+            <div class="imagem">
+                <span>✂️<br>BARBEARIA</span>
+            </div>
+
+            <h2>Barbearia</h2>
+
+            <p>
+                Promoções, cortes, barba,
+                divulgação e artes profissionais
+                para sua barbearia.
+            </p>
+
+            <a
+            class="botao"
+            href="https://www.instagram.com/ph_designs._/"
+            target="_blank">
+                Quero essa arte ✂️
+            </a>
+
+        </div>
+
+
+        <!-- LANCHONETE -->
+
+        <div class="card">
+
+            <div class="imagem">
+                <span>🍔<br>LANCHONETE</span>
+            </div>
+
+            <h2>Lanchonete</h2>
+
+            <p>
+                Artes para combos, cardápios,
+                ofertas, promoções e delivery.
+            </p>
+
+            <a
+            class="botao"
+            href="https://www.instagram.com/ph_designs._/"
+            target="_blank">
+                Quero essa arte 🍔
+            </a>
+
+        </div>
+
+
+        <!-- LOJA -->
+
+        <div class="card">
+
+            <div class="imagem">
+                <span>🛍️<br>LOJA</span>
+            </div>
+
+            <h2>Loja</h2>
+
+            <p>
+                Posts para produtos, novidades,
+                descontos, ofertas e promoções.
+            </p>
+
+            <a
+            class="botao"
+            href="https://www.instagram.com/ph_designs._/"
+            target="_blank">
+                Quero essa arte 🛍️
+            </a>
+
+        </div>
+
+
+        <!-- INSTAGRAM -->
+
+        <div class="card">
+
+            <div class="imagem">
+                <span>📱<br>INSTAGRAM</span>
+            </div>
+
+            <h2>Instagram</h2>
+
+            <p>
+                Identidade visual, posts,
+                conteúdos e artes para deixar
+                seu perfil mais profissional.
+            </p>
+
+            <a
+            class="botao"
+            href="https://www.instagram.com/ph_designs._/"
+            target="_blank">
+                Quero essa arte 📱
+            </a>
+
+        </div>
+
+
+        <!-- PROMOÇÃO -->
+
+        <div class="card">
+
+            <div class="imagem">
+                <span>🔥<br>PROMOÇÃO</span>
+            </div>
+
+            <h2>Promoção</h2>
+
+            <p>
+                Artes chamativas para promoções,
+                descontos, campanhas e ofertas.
+            </p>
+
+            <a
+            class="botao"
+            href="https://www.instagram.com/ph_designs._/"
+            target="_blank">
+                Quero essa arte 🔥
+            </a>
+
+        </div>
+
+
+    </section>
+
+
+    <section class="contato">
+
+        <h2>Gostou de alguma demonstração? 💜</h2>
+
+        <p>
+            Fale com a PH DESIGNS e solicite sua arte personalizada.
+        </p>
+
+        <a
+        class="instagram"
+        href="https://www.instagram.com/ph_designs._/"
+        target="_blank">
+
+            📩 Falar com a PH DESIGNS
+
+        </a>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    © 2026 PH DESIGNS • Artes para negócios
+
+</footer>
+
+
+</body>
+  </html>
